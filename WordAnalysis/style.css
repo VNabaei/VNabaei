@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    width: 100%;
+    height: 25%;
+    background-color: blueviolet;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainbody {
+    width: 60%;
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mainbody .container  {
+    width: 100%;
+    height: 75%;
+
+    display: flex;
+    flex-direction: row;
+}
+.mainbody .container .Text {
+    width: 50%;
+    height: 100%;
+
+}
+
+.mainbody .container .AnalisyngBox{
+    width: 50%;
+    height: 100%;
+
+}
+
+.mainbody footer {
+    width: 100%;
+    height: 25%;
+}
